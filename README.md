@@ -1,8 +1,12 @@
+# Jwt auth service with [NestJs](https://github.com/nestjs/nest)
+
+![Alt text](img/pres.png)
+
 ## Description
 
-A nodeJs service based on [NestJs](https://github.com/nestjs/nest) framework serving the following endpoints:
+A nodeJs service based on [NestJs](https://github.com/nestjs/nest) framework and serving the following endpoints:
 
-- POST /users/login: to get JWT access token
+- POST /users/login: to get [jwt](https://jwt.io/) access token
 - GET /users/current: to get current user infos (decoded token)
 - GET /users/connected : to connected users infos (with role filter ADMIN)
 
